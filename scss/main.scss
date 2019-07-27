@@ -1,0 +1,154 @@
+@import "base/reset";
+@import "elements/baseSetings";
+@import "elements/baseVariables";
+@import "elements/header";
+@import "elements/form";
+@import "elements/footer";
+@import "elements/boxing";
+
+
+
+
+
+
+
+
+.slide-gallery {
+  width: $main-width * 2;
+  display: flex;
+  p {
+    color: black;
+    font-size: $main-size;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.content {
+  display: flex;
+  h2 {
+    color: black;
+    text-align: center;
+  }
+}
+
+button {
+  color: black;
+  text-align: center;
+}
+
+.content .list {
+  width: $main-width;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+//.container {
+//  justify-items: flex-start;
+//}
+
+span {
+  color: mediumspringgreen;
+}
+
+button {
+  color: white;
+  background-color: mediumspringgreen;
+  border-radius: 7px;
+  width: 200px;
+  height: 50px;
+  font-size: $main-size;
+  margin-top: $main-size/2;
+}
+
+.gallery {
+  display: flex;
+  padding: $main-size/2;
+  height: 300px;
+  width: 100%;
+  margin: 0 5px;
+  justify-content: space-around;
+  color: black;
+  font-size: $main-size;
+}
+
+.findInputs {
+  border: 1px solid silver;
+  width: 33%;
+}
+
+h3 {
+  margin: 18px;
+  width: 400px;
+  &:after {
+    content: 'Finds All Inmputs';
+    border-bottom: 4px ridge mediumspringgreen;
+    color: black;
+    font-size: 16px;
+  }
+}
+
+.findInputs p {
+  text-align: left;
+  margin-left: $main-size;
+  color: black;
+}
+
+.pasek p {
+  height: $main-size * 2;
+  width: 330px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 2px;
+  margin-bottom: $main-size;
+  margin-left: 5px;
+}
+
+.one:after {
+  content: 'Chair MARGARITA';
+  border-bottom: 4px ridge mediumspringgreen;
+  color: black;
+  font-size: $main-size;
+  float: left;
+  margin-left: $main-size;
+  margin-top: $main-size/2 ;
+}
+
+.two:after {
+  content: 'Chair CLAIR';
+  border-bottom: 4px ridge mediumspringgreen;
+  color: black;
+  font-size: $main-size;
+  float: left;
+  margin-left: $main-size;
+  margin-top: 8px;
+  left: 3px;
+  bottom: $main-size/2;
+}
+
+div {
+  position: relative;
+}
+
+input {
+  border: 2px ridge mediumspringgreen;
+  color: #666666;
+  font-size: $main-size * 1,5;
+}
+
+
+//.row::before, .row::after {
+//  content: "";
+//  display: table;
+//  clear: both;
+//}
+
+
+
+

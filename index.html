@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>CodersLab</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/base/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
@@ -13,32 +13,13 @@
     <nav class="container">
         <h1>SIT <span>On</span> CHAIR</h1>
         <ul>
-            <li><a href="#">O Firmie</a>
-               <ul>
-
-                   <li><a href="#">Zakeres dzialaności</a> </li>
-                   <li><a href="#">Więcej info</a> </li>
-                   <li><a href="#">więcej info1</a> </li>
-               </ul>
-            </li>
-
-
-            <li><a href="#">Galeria</a>
-                <ul>
-                    <li><a href="#">Fotele</a> </li>
-                    <li><a href="#">Fotele Biurowe</a> </li>
-                    <li><a href="#">Krzesła</a> </li>
-                    <li><a href="#">Krzesła Biurowe</a> </li>
-                    <li><a href="#">Sofy</a> </li>
-                    <li><a href="#">Sofy Biurowe</a> </li>
-                </ul>
-            </li>
+            <li><a href="#">O Firmie</a></li>
+            <li><a href="#">Galeria</a></li>
                <li><a href="#">Kontakt</a>
                    <ul>
                       <li><a href="#">Dane adresowe</a> </li>
                       <li><a href="#">e-mail</a> </li>
                       <li><a href="#">Telefon</a> </li>
-                      <li><a href="#">Fax</a> </li>
                 </ul>
             </li>
         </ul>
@@ -53,53 +34,123 @@
                 <div class="list">
                     <h2>SIT <span>On</span> OUR <span>CHAIR</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, maiores sint. Ad atque commodi consectetur doloribus laboriosam reiciendis sapiente voluptatem?Lorem exercitationem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consectetur dignissimos explicabo incidunt unde, veniam voluptatem. Animi autem laboriosam velit.</p>
-                    <button type="button">Dowiedz sie wiecej</button>
+                    <button type="button"><b>Dowiedz sie wiecej</b></button>
                 </div>
             </div>
         </article>
     </section>
     <section class="container">
         <article class="gallery">
-            <div><img src="images/box1_img.jpg"></div>
-            <div><img src="images/box2_img.jpg"></div>
-            <div class="findInputs">
-                <h3>Fimds all inputs</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deserunt eos, incidunt porro provident sequi! Aliquam aliquid aspernatur blanditiis debitis fuga illum, laboriosam mollitia, perferendis recusandae repellat tempora vel voluptas.</p>
+            <div><img src="images/box1_img.jpg">
+                <div class = "pasek"><p class = "two"></p> </div>
             </div>
-
-
+            <div><img src="images/box2_img.jpg">
+                <div class = "pasek"><p class="one"></p> </div>
+            </div>
+            <div class="findInputs">
+                <h3></h3>
+                <p class="inputContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deserunt eos, incidunt porro provident sequi! Aliquam aliquid aspernatur blanditiis debitis fuga illum, laboriosam mollitia, perferendis recusandae repellat tempora vel voluptas.</p>
+            </div>
         </article>
     </section>
-    <section class="container">
-        <article>
-            <div>pic</div>
-            <div>pic</div>
-            <div>object + text</div>
-        </article>
-    </section>
-    <section class="container">
-        <article>
-            <div>CENNIK</div>
-            <div>BASIC PLAN</div>
-            <div>STANDARD PLAN</div>
-            <div>ADVANCE PLAN</div>
-        </article>
-    </section>
-    <section class="container">
-        <article>
-            <div>Kontakt</div>
-            <div>input-Imie</div>
-            <div>input-email</div>
-            <div>input-Wiadomosc</div>
-            <div>zdjecie</div>
-            <div>checkbox</div>
-            <div>SUBMIT</div>
-        </article>
-    </section>
+    <section class="container-two">
 
-</main>
+        <div class="box3">
+            <div class="circle"></div>
+            <div class="header">BASIC PLAN</div>
+            <div class="cena">85<span>99</span><p>PLN/MSC</p></div>
+            <div class="circle-two"> </div>
+            <div class="box3-content-one">
+                <p>Zakup towaru i dowóz</p>
+            </div>
+            <div class="box3-content-two">
+                <p>Serwis</p>
+            </div>
+            <div class="footer">
+                <button type="button"><b>DOŁĄCZ</b></button>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="circle-green"></div>
+            <div class="header">STANDARD PLAN</div>
+            <div class="cena">95<span>99</span><p>PLN/MSC</p></div>
+            <div class="circle-two"> </div>
+            <div class="box4-content-one">
+                <p>Zakup towaru + dowóz</p>
+            </div>
+            <div class="box4-content-two">
+                <p>Serwis</p>
+            </div>
+            <div class="box4-content-three">
+                <p>Gwarancja 5 lat</p>
+            </div>
+            <div class="box-footer">
+                <button type="button" class="white"><b>DOŁĄCZ</b></button>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="circle"></div>
+            <div class="header">ADVANCE PLAN</div>
+            <div class="cena">211<span>00</span><p>PLN/MSC</p></div>
+            <div class="circle-two"> </div>
+            <div class="box3-content-one">
+                <p>Zakup towaru i dowóz</p>
+            </div>
+            <div class="box3-content-two">
+                <p>Serwis</p>
+            </div>
+            <div class="box3-content-three">
+                <p>Gwarancja 6 lat</p>
+            </div>
+            <div class="box3-content-four">
+                <p>Porady projektanta</p>
+            </div>
+            <div class="footer">
+                <button type="button"><b>DOŁĄCZ</b></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <form class="form">
+            <div class="box">
+                <h4></h4>
+                <label>
+                    <input type="text" name="imię" value="Imię"/><br>
+                </label>
+                <label>
+                    <input type="text" name="email" value="email"/><br>
+                </label>
+                <label>
+                    <textarea class="masage" name="wiadomosc" ></textarea>
+                </label>
+            </div>
+            <div class="box2">
+               <div><img src="images/red_chair.png"> </div>
+<!--                <label class="checkboxInfo">Zgadzam sie na przetwarzanie moich danych osobowych</label>-->
+                <input type="checkbox" id="checkbox-1-1" class="regular-checkbox" />
+                <label class="checkboxInfo">Zgadzam sie na przetwarzanie moich danych osobowych</label><br>
+                <div class="button">
+                   <button type="button"><b>Wyślij</b></button>
+                </div>
+              </div>
+        </form>
+    </section>
+    </main>
+   <footer class="container">
+           <div class="footer">
+               <p>Copyright 2014 All Rights Reserved. - Sit On Chair</p>
+           </div>
+       <div class="end">
+           <p>sit <span>on</span> chair</p>
+       </div>
+           <div class="logo">
+               <img src="images/flickr.png" alt="flickr">
+               <img src="images/vimeo.png" alt="vimeo">
+               <img src="images/pinterest.png" alt="pinterest">
+               <img src="images/twitter.png" alt="twitter">
+           </div>
 
-<footer>
-    <div>Copyright 2014 | All Rights Reserved -Sit On Chair</div>
+       </footer>
+</body>
 
-</footer>
+

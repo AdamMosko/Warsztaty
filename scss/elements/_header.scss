@@ -1,0 +1,66 @@
+
+h1 {
+  font-size: $main-size * 2;
+  float: left;
+
+}
+
+
+nav {
+  background-color: black;
+  height: $main-size * 3;
+  width: 100%;
+  border-radius: 7px;
+  align-items: flex-start;
+  padding: $main-size;
+  text-transform: none;
+  ul {
+    float: right;
+    list-style: none;
+    font-size: $main-size;
+    li {
+      float: right;
+      padding-left: $main-size;
+      position: relative;
+    }
+  }
+  h1 {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+a, div {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li {
+  a {
+    float: bottom;
+    padding: 22px 14px;
+    font-size: 16px;
+    display: block;
+  }
+  ul {
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 0px 0px 5px 5px;
+  }
+  &:hover ul {
+    display: block;
+  }
+  ul li {
+    a {
+      padding: 5px 14px;
+      &:hover {
+        background-color: #333333;
+        //display: table;
+      }
+    }
+    width: 180px;
+    border-radius: 5px;
+  }
+}
